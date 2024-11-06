@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T14:17:36 CST" name="Surefire suite" finished-at="2024-11-06T14:19:06 CST" duration-ms="90152">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" name="LoginErrorValidation" class="tmrs.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" name="submitOrder" class="tmrs.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-11-06T14:17:36 CST" name="Surefire test" finished-at="2024-11-06T14:19:06 CST" duration-ms="90152">
+      <class name="tmrs.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:36 CST" name="launchApplication" finished-at="2024-11-06T14:17:40 CST" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:40 CST" name="LoginErrorValidation" finished-at="2024-11-06T14:17:41 CST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:41 CST" name="tearDown" finished-at="2024-11-06T14:17:41 CST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:41 CST" name="launchApplication" finished-at="2024-11-06T14:17:45 CST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:45 CST" name="ProductErrorValidation" finished-at="2024-11-06T14:17:48 CST" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.ErrorValidationsTest@670002]" started-at="2024-11-06T14:17:48 CST" name="tearDown" finished-at="2024-11-06T14:17:48 CST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tmrs.tests.ErrorValidationsTest -->
+      <class name="tmrs.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:18:44 CST" name="launchApplication" finished-at="2024-11-06T14:18:48 CST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:18:48 CST" name="submitOrder" data-provider="getData" finished-at="2024-11-06T14:18:52 CST" duration-ms="3759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iambeloved@000, product=IPHONE 13 PRO, email=blanka.cruz@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:18:52 CST" name="tearDown" finished-at="2024-11-06T14:18:52 CST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:18:52 CST" name="launchApplication" finished-at="2024-11-06T14:18:57 CST" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:18:57 CST" name="submitOrder" data-provider="getData" finished-at="2024-11-06T14:19:00 CST" duration-ms="3770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamqueen@000, product=ADIDAS ORIGINAL, email=bcruz@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:19:00 CST" name="tearDown" finished-at="2024-11-06T14:19:01 CST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:19:01 CST" name="launchApplication" finished-at="2024-11-06T14:19:05 CST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:19:05 CST" name="orderHistoryTest" finished-at="2024-11-06T14:19:06 CST" depends-on-methods="tmrs.tests.SubmitOrderTest.submitOrder" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderTest@6e0dec4a]" started-at="2024-11-06T14:19:06 CST" name="tearDown" finished-at="2024-11-06T14:19:06 CST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tmrs.tests.SubmitOrderTest -->
+      <class name="tmrs.tests.SubmitOrderAllDataProvidersTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:17:48 CST" name="launchApplication" finished-at="2024-11-06T14:17:53 CST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:17:53 CST" name="submitOrder" data-provider="getData" finished-at="2024-11-06T14:17:57 CST" duration-ms="3746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blanka.cruz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iambeloved@000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IPHONE 13 PRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:17:57 CST" name="tearDown" finished-at="2024-11-06T14:17:57 CST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:17:57 CST" name="launchApplication" finished-at="2024-11-06T14:18:01 CST" duration-ms="4741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:01 CST" name="submitOrder" data-provider="getData" finished-at="2024-11-06T14:18:05 CST" duration-ms="3679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcruz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamqueen@000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:05 CST" name="tearDown" finished-at="2024-11-06T14:18:05 CST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:05 CST" name="launchApplication" finished-at="2024-11-06T14:18:10 CST" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:10 CST" name="submitOrder2" data-provider="getData2" finished-at="2024-11-06T14:18:14 CST" duration-ms="3762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iambeloved@000, email=blanka.cruz@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:14 CST" name="tearDown" finished-at="2024-11-06T14:18:14 CST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:14 CST" name="launchApplication" finished-at="2024-11-06T14:18:18 CST" duration-ms="4129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder2(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:18 CST" name="submitOrder2" data-provider="getData2" finished-at="2024-11-06T14:18:22 CST" duration-ms="3761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamqueen@000, email=bcruz@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:22 CST" name="tearDown" finished-at="2024-11-06T14:18:22 CST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:22 CST" name="launchApplication" finished-at="2024-11-06T14:18:26 CST" duration-ms="4593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder3(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:26 CST" name="submitOrder3" data-provider="getData3" finished-at="2024-11-06T14:18:30 CST" duration-ms="3759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iambeloved@000, product=IPHONE 13 PRO, email=blanka.cruz@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:30 CST" name="tearDown" finished-at="2024-11-06T14:18:30 CST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:30 CST" name="launchApplication" finished-at="2024-11-06T14:18:34 CST" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder3(java.util.HashMap)[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:34 CST" name="submitOrder3" data-provider="getData3" finished-at="2024-11-06T14:18:38 CST" duration-ms="3793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamqueen@000, product=ADIDAS ORIGINAL, email=bcruz@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:38 CST" name="tearDown" finished-at="2024-11-06T14:18:38 CST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:38 CST" name="launchApplication" finished-at="2024-11-06T14:18:43 CST" duration-ms="4657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:43 CST" name="orderHistoryTest" finished-at="2024-11-06T14:18:44 CST" depends-on-methods="tmrs.tests.SubmitOrderAllDataProvidersTests.submitOrder" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tmrs.tests.SubmitOrderAllDataProvidersTests@56528192]" started-at="2024-11-06T14:18:44 CST" name="tearDown" finished-at="2024-11-06T14:18:44 CST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tmrs.tests.SubmitOrderAllDataProvidersTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
