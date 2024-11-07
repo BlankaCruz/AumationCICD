@@ -19,6 +19,7 @@ public class StandAloneTest {
 	public static void main(String[] args) {
 
 		//Comment1
+		//Comment2
 //		String productName = "ZARA COAT 3";
 		String productName = "IPHONE 13 PRO";
 //		System.setProperty("webdriver.chrome.driver", "/Users/blanka/Documents/chromedriver.exe");
